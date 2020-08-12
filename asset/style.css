@@ -1,0 +1,62 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.section-hero{
+    height: 100vh;
+    background-image: url(./img/hero-bg.jpg);
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+.section-hero__inner-container{
+    height: 100vh;
+}
+
+.btn{
+    border: 2px solid whitesmoke;
+    border-radius: 25px;
+    background-color: transparent;
+    padding: 10px 35px;
+    color: white;
+    
+}
+.btn-transparent:hover{
+    background-color: turquoise;
+    color: white;
+}
+
+
+.section-about{
+    height: 100vh;
+    background-color: white;
+    padding: 60px 0px;
+
+}
+
+.card{
+    border: none
+}
+.card__icon-container{
+    background-position: center;
+}
+.card__icon-item::before{
+    margin-left: 0px;
+    font-size: 25px;
+    padding: 15px;
+    color: seagreen;
+    border-radius: 50%;
+    border: 2px solid seagreen;
+
+}
+
+
+
+
+
